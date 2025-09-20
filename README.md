@@ -22,7 +22,6 @@ The goal is to build a neural network **from scratch (NumPy only)** and visualiz
 ## Example Results
 - Easy spirals → ~58% accuracy with 2-layer net
 - Hard spirals → ~50% accuracy (chance level)
-
 *(Clearly, shallow nets struggle with topologically tricky datasets!)*
 
 ---
@@ -35,22 +34,6 @@ The goal is to build a neural network **from scratch (NumPy only)** and visualiz
 - Experiment with **wider & deeper architectures**  
 - Design **new topologically challenging datasets**
 
----
-
-## 🛠️ Getting Started
-Clone the repo and run the notebooks/scripts:
-
-```bash
-git clone https://github.com/your-username/spiral-untangler.git
-cd spiral-untangler
-python main.py
-````
-
-Requirements:
-
-* Python 3.x
-* NumPy
-* Matplotlib
 
 ---
 
