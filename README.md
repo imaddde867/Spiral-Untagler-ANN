@@ -2,11 +2,11 @@
 
 This project explores how neural networks can learn to **untangle intertwined spirals** — a classic toy problem in nonlinear classification.  
 
-The goal is to build a neural network **from scratch (NumPy only)** and visualize how each layer geometrically transforms the data space in real time. Along the way, we’ll investigate the limits of simple architectures and experiment with progressively harder datasets.
+The goal is to build a neural network **from scratch** (NumPy only)and visualize how each layer geometrically transforms the data space in real time. Along the way, we’ll investigate the limits of simple architectures and experiment with progressively harder datasets.
 
 ---
 
-## Features
+## Features so far
 - **Spiral Data Generation**: Easy, medium, and hard intertwined spirals.
 - **Visualization Tools**: Scatter plots, decision boundaries, and cost curves.
 - **Neural Network Core**:
@@ -19,13 +19,6 @@ The goal is to build a neural network **from scratch (NumPy only)** and visualiz
 
 ---
 
-## Example Results
-- Easy spirals → ~58% accuracy with 2-layer net
-- Hard spirals → ~50% accuracy (chance level)
-*(Clearly, shallow nets struggle with topologically tricky datasets!)*
-
----
-
 ## Next Steps
 - The **"Impossibility Dataset"** for more extreme tests  
 - Layer-by-layer **transformation visualization**  
@@ -33,7 +26,6 @@ The goal is to build a neural network **from scratch (NumPy only)** and visualiz
 - Gradient flow analysis (where they vanish/explode)  
 - Experiment with **wider & deeper architectures**  
 - Design **new topologically challenging datasets**
-
 
 ---
 
